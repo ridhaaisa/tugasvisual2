@@ -1,0 +1,116 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 520
+  Height = 365
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 184
+    Top = 16
+    Width = 144
+    Height = 13
+    Caption = 'Program Kalkulator Sederhana'
+  end
+  object Panel1: TPanel
+    Left = 8
+    Top = 48
+    Width = 489
+    Height = 265
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 24
+      Width = 58
+      Height = 13
+      Caption = 'Input Angka'
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 72
+      Width = 58
+      Height = 13
+      Caption = 'Input Angka'
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 160
+      Width = 23
+      Height = 13
+      Caption = 'Hasil'
+    end
+    object Edit1: TEdit
+      Left = 88
+      Top = 16
+      Width = 129
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit2: TEdit
+      Left = 88
+      Top = 64
+      Width = 129
+      Height = 21
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 80
+      Top = 104
+      Width = 75
+      Height = 25
+      Caption = 'Tambah'
+      TabOrder = 2
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 160
+      Top = 104
+      Width = 75
+      Height = 25
+      Caption = 'Kurang'
+      TabOrder = 3
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 240
+      Top = 104
+      Width = 75
+      Height = 25
+      Caption = 'Kali'
+      TabOrder = 4
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Left = 320
+      Top = 104
+      Width = 75
+      Height = 25
+      Caption = 'Bagi'
+      TabOrder = 5
+      OnClick = Button4Click
+    end
+    object Edit3: TEdit
+      Left = 88
+      Top = 152
+      Width = 129
+      Height = 21
+      TabOrder = 6
+    end
+    object Button5: TButton
+      Left = 384
+      Top = 216
+      Width = 75
+      Height = 25
+      Caption = 'Button5'
+      TabOrder = 7
+    end
+  end
+end
